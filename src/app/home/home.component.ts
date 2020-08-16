@@ -29,7 +29,7 @@ export class HomeComponent implements OnInit {
   }
 
   getMemberDetails() {
-    return this.http.get('https://servise1-rus95.azurewebsites.net/users');
+    return this.http.get('https://service-1.azurewebsites.net/users');
   }
 
   loadMemberDetails() {
